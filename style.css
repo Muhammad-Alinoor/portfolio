@@ -1,0 +1,68 @@
+body{
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 42px;
+}
+.orange-color{
+    color:orange;
+}
+h2{
+    font-size: 30px;
+}
+a{
+    text-decoration: none;/*underline removed from see my resume link*/
+    color: white;/*text color*/
+    background-image: linear-gradient(#f7bab5,#fc7c64);
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+.flexible{
+    display: flex;
+    margin-bottom: 150px;
+  
+}
+.top-banner{
+    background-image: url(bg-img/top-banner.png);
+    background-repeat: no-repeat;
+}
+.half-width{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.half-width img{
+    width:100%;
+    
+}
+.dream-big{
+    background-image: url(bg-img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-item{
+    width:40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left:15px;
+}
+.experience-area{
+    background-image: url(bg-img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 4px solid;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+#child-dev{
+    border-left: 4px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
